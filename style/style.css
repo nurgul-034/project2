@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Staatliches&display=swap'); 
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+} 
+
+html{
+    font-size: 16px;
+}
+
+header{
+    background-color:black;
+    max-height: 100%;
+}
+.container{
+    max-width: 1180px;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+h1{ 
+    text-align: center; 
+    font-family: 'Staatliches', cursive; 
+    color:red ; 
+    margin: 10px; 
+} 
+main{ 
+    width: 75%; 
+    margin: auto; 
+    background-color: mintcream; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    padding: 50px; 
+} 
+.item{ 
+    width:calc(50% - 20px); 
+    height: 200px; 
+    margin: 10px; 
+    background-color: mediumseagreen; 
+    flex-direction:column-reverse; 
+    border-radius:5px; 
+    background-size: cover; 
+}
+.item:hover{
+    transform: scale(1.05) rotate(4deg) ;
+} 
+.item-1{ 
+    background-image: url(../img/foto12.jpg); 
+} 
+.item-2{ 
+    background-image: url(../img/foto11.jpg); 
+
+} 
+.item-3{ 
+    background-image: url(../img/foto1.jpg); 
+
+} 
+.item-4{ 
+    background-image: url(../img/foto2.jpg); 
+
+} 
+.item-5{ 
+    background-image: url(../img/foto3.jpg); 
+
+} 
+.item-6{ 
+    background-image: url(../img/foto4.jpg); 
+
+} 
+.item-7{ 
+    background-image: url(../img/foto5.jpg); 
+
+} 
+.item-8{ 
+    background-image: url(../img/foto6.jpg); 
+
+} 
+.item-9{ 
+    background-image: url(../img/foto7.jpg); 
+
+} 
+.item-10{ 
+    background-image: url(../img/foto8.jpg); 
+ 
+} 
+.item-11{ 
+    background-image: url(../img/foto9.jpg); 
+
+} 
+.item-12{ 
+    background-image: url(../img/foto10.jpg); 
+
+}
